@@ -1,0 +1,99 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0,0,0,.3); 
+    min-height: 80vh;
+    max-width:100vh;
+    background: url('../images/background-images/add_item.jpg') no-repeat center center fixed; 
+    -webkit-background-size: 300px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.sidebar{
+    text-decoration: none;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:rgb(12, 52, 14);
+    color: white;
+} 
+label{
+    padding-bottom: 3%;
+}
+
+.sidebar a:hover {
+    color:whitesmoke;
+}
+  
+  .dot {
+    margin: 15px 50px 15px 50px;
+    height: 75px;
+    width: 75px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    padding-left: 35px;
+  } 
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding:0%;
+    background: rgba(19, 176, 25, 0.5);
+    color:rgb(3, 39, 8);
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    border-radius: 1em;
+    min-width:1000px;
+    min-height:585px;
+    padding-top: 5%;
+    margin-top:2%;
+    margin-left: 500px;
+  }
+  /* IMG.displayed {
+    max-width:150px;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 90%;
+    margin-bottom: 2%;
+  } */
+  form{
+      min-width:100%;
+  }
+   .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  .item{
+  padding-right: 10%; 
+  } 
+.add{
+text-align: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 0.4px;
+padding:1% 7% 1% 7%;
+border-radius: 20px;
+outline: none;
+margin-top: 2%;
+margin-right: 2%;
+color: #FFFFFF;
+background-color: rgb(9, 110, 9);
+opacity: 1;
+}
+.cancel{
+  text-align: left;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: 0.4px;
+padding:1% 5% 1% 5%;
+border-radius: 20px;
+outline: none;
+margin-top: 2%;
+margin-right: 2%;
+color: #FFFFFF;
+background-color: rgb(100, 6, 6);
+opacity: 1;
+}

@@ -1,4 +1,134 @@
-.carousel {
-    width:640px;
-    height:360px;
-  }
+img {
+  margin: 5rem 22rem;
+  max-width: 830px;
+  max-height: 500px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: Gotu;
+    src :url(../font/Gotu-Regular.ttf);
+}
+@font-face{
+    font-family: Muli;
+    src:url(../font/Muli-VariableFont_wght.ttf);
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Gotu;
+}
+
+.w-80{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px;
+}
+/* Start Header Coding */
+
+header{
+    width: 100%;
+    height: 55px;
+    background: blue;
+    float: left;
+}
+
+
+
+/* End Header Coding */
+
+/* Start custom scrollbar coding*/
+
+body::-webkit-scrollbar{
+    width: 8px;
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: yellow;
+}
+
+/* End custom scrollbar coding*/
+/* Start Section Coding */
+
+section{
+    width: 100%;
+    float: left;
+}
+section .section-img{
+    width: 100%;
+    height: 480px;
+    background: url(homeup.jpg) no-repeat;
+    background-size: cover;
+}
+section .section-bg-box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 150px 0;
+}
+section .section-bg-box h1{
+    background: green;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    margin: auto;
+}
+section .section-bg-box h2{
+    background: blue;
+    color: white;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
+section .welcome-text{
+    font-size: 35px;
+    text-transform: uppercase;
+    background: red;
+    width: 60%;
+    padding: 0 5px;
+    color: white;
+}
+section p{
+    font-size: 22px;
+    text-align: justify;
+    background-color: lavender;
+}
+section ul{
+    padding: 0;
+    margin-left:10px;
+    margin-top: 20px;
+    list-style: none;
+}
+section ul li{
+    font-size: 20px;
+    line-height: 30px;
+}
+section h2{
+    font-size: 30px;
+    color: blue;
+    background:rgb(148, 255, 127) ;
+
+}
+section .about-box{
+    width: 100%;
+}
+section .about-box p{
+    font-size: 18px;
+}
+section .about-box div:nth-child(1){
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+section .about-box div:nth-child(2){
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
